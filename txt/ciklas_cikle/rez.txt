@@ -1,0 +1,5 @@
+1-ojo tipo komponentu reikes uzsakyti 19. Ju kaina 8.7
+2-ojo tipo komponentu reikes uzsakyti 16. Ju kaina 1.07
+3-ojo tipo komponentu reikes uzsakyti 12. Ju kaina 0.84
+
+Is viso uzsakyti reikes 47 komponentus, kuriu suma 10.61.
