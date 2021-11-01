@@ -1,0 +1,3 @@
+A masyvas: 5 4 3 2 1 
+B masyvas: 1 2 3 4 5 
+C masyvas: 6 6 6 6 6 

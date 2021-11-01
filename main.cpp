@@ -6,6 +6,7 @@
 #include "while_ciklas.h"
 #include "ciklas_cikle.h"
 #include "do_while.h"
+#include "masyvai.h"
 
 using namespace std;
 
@@ -18,6 +19,7 @@ int main()
     cout << "[5] - While ciklo antra uzduotis\n";
     cout << "[6] - Ciklas cikle uzduotis\n";
     cout << "[7] - Ciklas do while uzduotis\n";
+    cout << "[8] - Masyvai (Is skirtingu eiluciu) uzduotis\n";
 
     int select;
 
@@ -44,6 +46,9 @@ int main()
             break;
         case 7:
             do_while_uzduotis();
+            break;
+        case 8:
+            Masyvai_Is_Skirtingu_Eiluciu();
             break;
         default:
             cout << "\nNetinkamas uzduoties numeris.\n\n";

@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int IfUzduotis () {
+void IfUzduotis () {
     cout << "Uzduotis:\nDuoti du skaiciai. Didesniojo skaiciaus reiksme reikia priskirti kintamajam DID, o mazesniojo - kintamajam MAZ. Jei skaiciai lygus isveskite atitinkama pranesima.\n\n";
 
     int pirmas, antras, DID, MAZ;

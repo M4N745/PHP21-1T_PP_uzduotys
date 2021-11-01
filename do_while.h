@@ -80,12 +80,12 @@ void do_while_uzduotis() {
         aa = aa + xx;
         check++;
 
-        if (aa > b) {
+        if (aa >= b) {
             cout << "Po " << check << " men. alga bus ne mazesne uz " << b << " litu.\n";
         }
 
     }
-    while (aa < b + 1);
+    while (aa < b);
 }
 
 #endif // DO_WHILE_H_INCLUDED

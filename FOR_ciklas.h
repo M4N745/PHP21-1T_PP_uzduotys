@@ -7,7 +7,7 @@
 
 using namespace std;
 
-int ciklasFor2Uzduotis(){
+void ciklasFor2Uzduotis(){
     cout << "Uzduotis:\n";
     cout << "Loterijos bilieto numeriai šešiaženkliai skaičiai (1-asis  000001,  kuri  atitinka skaičius1).  Laimingas laikomas toks bilietas, kurio numerio skaitmenų suma dalosi iš 13. Atspausdinkite visus laimingus bilietus ir suskaičiuokite kiek jų yra.\n\n";
 
@@ -28,7 +28,7 @@ int ciklasFor2Uzduotis(){
 }
 
 
-int ciklasFor3Uzduotis () {
+void ciklasFor3Uzduotis () {
     cout << "Uzduotis:\n";
 
     string choice;

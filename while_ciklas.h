@@ -6,7 +6,7 @@
 
 using namespace std;
 
-int WhileCiklo1Uzduotis(){
+void WhileCiklo1Uzduotis(){
     cout << "Uzduotis:\n";
     cout << "Įvedamas bet koks skaičius. Parašyti programą, kuri apskaičiuotų įvesto skaičiaus skaitmenų didesnių už 3 ir mažesnių už 9 bet nelygių 5 sandaugą.Apskaičiuokite, kiek tokių skaičių yra.\n\n";
 
@@ -53,7 +53,7 @@ int WhileCiklo1Uzduotis(){
     cout << "Viso skaitmenu, didesniu uz 3, mazesniu uz 9 ir nelygiu 5 yra: " << leftNums.length() << "\n";
 }
 
-int WhileCiklo2Uzduotis() {
+void WhileCiklo2Uzduotis() {
     cout << "Uzduotis:\n";
     cout << "Duotas natūralusis skaičius N. Skaitmenys numeruojami iš dešinės į kairę. Raskite didžiausią skaitmenį ir nustatykite jo numerį (jei skaitmuo kartojasi, tai pasirenkame tą skaitmenį kurio eilės numeris mažesnis).\n\n";
 
