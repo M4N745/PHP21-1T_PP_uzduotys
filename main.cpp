@@ -5,6 +5,7 @@
 #include "FOR_ciklas.h"
 #include "while_ciklas.h"
 #include "ciklas_cikle.h"
+#include "do_while.h"
 
 using namespace std;
 
@@ -15,7 +16,8 @@ int main()
     cout << "[3] - For ciklo antra uzduotis\n";
     cout << "[4] - While ciklo pirma uzduotis\n";
     cout << "[5] - While ciklo antra uzduotis\n";
-    cout << "[6] - Ciklas cikle\n";
+    cout << "[6] - Ciklas cikle uzduotis\n";
+    cout << "[7] - Ciklas do while uzduotis\n";
 
     int select;
 
@@ -39,6 +41,9 @@ int main()
             break;
         case 6:
             CiklasCikle();
+            break;
+        case 7:
+            do_while_uzduotis();
             break;
         default:
             cout << "\nNetinkamas uzduoties numeris.\n\n";
